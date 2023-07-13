@@ -161,8 +161,6 @@ include_directories(
 ## in contrast to setup.py, you can choose the destination
 catkin_install_python(PROGRAMS
   scripts/pub.py
-  scripts/sub.py
-  scripts/den2.py
   scripts/deneme_sub.py
   DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION}
 )
